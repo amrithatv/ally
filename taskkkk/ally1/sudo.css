@@ -1,0 +1,18 @@
+p::first-line{
+    background-color: rgb(169, 240, 240);
+}
+p::first-letter{
+    color: blue;
+}
+
+P::selection{
+    background-color: blueviolet;
+    color: beige;
+}
+button::after{
+    content:  "ME";
+}
+li::marker{
+    color: blue;
+    font-size: 10px;
+}

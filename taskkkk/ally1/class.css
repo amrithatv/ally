@@ -1,0 +1,36 @@
+input::placeholder{
+    color: blue;
+    background-color: antiquewhite;
+}
+button:hover{
+    background-color: crimson;
+
+}
+a:link{
+    background-color: rgb(248, 145, 145);
+    color: rgb(63, 2, 2);
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: aqua;
+    background-color: rgb(184, 134, 231);
+}
+input:focus{
+    outline: none;
+    background-color: rgb(78, 175, 175);
+}
+input:valid{
+    background-color: chartreuse;
+
+}
+input:invalid{
+    background-color: darkgoldenrod;
+}
+input:required{
+    background-color: hotpink;
+}
+button{
+    background-color: rgb(79, 79, 238);
+}

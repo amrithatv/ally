@@ -1,0 +1,17 @@
+/*div:last-of-type{
+    background-color: aqua;
+}
+div:first-of-type{
+    background-color: blue;
+}*/
+.item:nth-child(3n-2){
+    background-color: blueviolet;
+}
+div:nth-of-type(1){
+    background-color: aqua;
+}
+
+.item:nth-last-child(){
+    background-color: brown;
+}
+div:nth-last-of-type(){}
